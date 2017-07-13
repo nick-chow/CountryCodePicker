@@ -10,6 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="@string/search"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/darker_gray"
         android:drawableLeft="@drawable/search_icon" />
 
     <ListView
